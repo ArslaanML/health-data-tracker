@@ -1,18 +1,25 @@
-# React + Vite
+# Health Data Tracker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An interactive web dashboard that visualises global health statistics using public APIs.
 
-Currently, two official plugins are available:
+## Features
+- Country-level and global health metrics
+- Life expectancy, mortality rates, and health expenditure
+- Interactive time-series charts
+- Compare two countries on the same chart
+- Export visible data to CSV
+- Client-side caching for fast navigation
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tech Stack
+- React (Vite)
+- Recharts
+- World Bank Public API
+- Modern CSS (custom dashboard styling)
 
-## React Compiler
+## Live Data Source
+Data provided by the World Bank Open Data API.
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
-
-Note: This will impact Vite dev & build performances.
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## How to Run Locally
+```bash
+npm install
+npm run dev
