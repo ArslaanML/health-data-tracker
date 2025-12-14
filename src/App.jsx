@@ -387,9 +387,9 @@ function App() {
   return (
     <div className="app">
       <header className="app-header">
-        <h1>Health Data Tracker</h1>
+        <h1>LifeLens</h1>
         <p className="app-subtitle">
-          Visualising global health statistics using public APIs.
+          Exploring global health trends through public data.
         </p>
       </header>
 
