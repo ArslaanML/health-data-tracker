@@ -1,6 +1,6 @@
-# Health Data Tracker
+# LifeLens
 
-An interactive web dashboard that visualises global health statistics using public APIs.
+LifeLens is an interactive web dashboard that explores global health trends using public data APIs.
 
 ## Features
 - Country-level and global health metrics
